@@ -1,0 +1,102 @@
+[
+  {
+    "id": "uOonE2W8",
+    "firstName": "Ana",
+    "lastName": "García",
+    "personIdType": "dni",
+    "personId": "12345678",
+    "externalId": "EXT-123",
+    "booklyId": "BOOK-456",
+    "email": "ana.garcia@example.com",
+    "phoneNumber": "+34654321012"
+  },
+  {
+    "id": "uOHc9TDG",
+    "firstName": "Pedro",
+    "lastName": "Martínez",
+    "personIdType": "pass",
+    "personId": "AB1234567",
+    "externalId": "EXT-456",
+    "booklyId": "BOOK-789",
+    "email": "pedro.martinez@example.com",
+    "phoneNumber": "+5511987654321"
+  },
+  {
+    "id": "nSsqTFM1",
+    "firstName": "María",
+    "lastName": "López",
+    "personIdType": "dni",
+    "personId": "12345680",
+    "externalId": "EXT-789",
+    "booklyId": "BOOK-101",
+    "email": "maria.lopez@example.com",
+    "phoneNumber": "+33123456789"
+  },
+  {
+    "id": "RbzxLzYB",
+    "firstName": "Juan",
+    "lastName": "Pérez",
+    "personIdType": "dni",
+    "personId": "87654321",
+    "externalId": "EXT-102",
+    "booklyId": "BOOK-102",
+    "email": "juan.perez@example.com",
+    "phoneNumber": "+44789123456"
+  },
+  {
+    "id": "jGHKKQhE",
+    "firstName": "Laura",
+    "lastName": "Fernández",
+    "personIdType": "pass",
+    "personId": "12345678",
+    "externalId": "EXT-103",
+    "booklyId": "BOOK-103",
+    "email": "laura.fernandez@example.com",
+    "phoneNumber": "+39012345678"
+  },
+  {
+    "id": "UE6NBPEy",
+    "firstName": "David",
+    "lastName": "Sánchez",
+    "personIdType": "cuit",
+    "personId": "20987654328",
+    "externalId": "EXT-104",
+    "booklyId": "BOOK-104",
+    "email": "david.sanchez@example.com",
+    "phoneNumber": "+49167890123"
+  },
+
+  {
+    "id": "zLia4OlM",
+    "firstName": "Homero Jey",
+    "lastName": "Simpson",
+    "personIdType": "dni",
+    "personId": "30365001",
+    "externalId": "",
+    "booklyId": "",
+    "email": "homeroJSimpson@correo.com",
+    "phoneNumber": "+5491112345678"
+  },
+  {
+    "id": "aJLZQYev",
+    "firstName": "Bartolomeo Jey",
+    "lastName": "Simpson",
+    "personIdType": "dni",
+    "personId": "45395025",
+    "externalId": "",
+    "booklyId": "",
+    "email": "no.soy.el.barto@correo.com",
+    "phoneNumber": "+5491188885266"
+  },
+  {
+    "id": "qF696Mnm",
+    "firstName": "Ned",
+    "lastName": "Flanders",
+    "personIdType": "other",
+    "personId": "12345678",
+    "externalId": "",
+    "booklyId": "",
+    "email": "ned.flanders@correo.com",
+    "phoneNumber": "+5491102852754"
+  }
+]
