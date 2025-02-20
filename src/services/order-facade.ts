@@ -1,4 +1,4 @@
-import { promises } from 'dns';
+require('dotenv').config()
 import { HealthOrder, NewHealthOrder, OrdersResponse } from '../types';
 
 
@@ -17,13 +17,14 @@ export default class OrderFacade {
   private apiUrl: string;
 
   constructor() {
-    this.apiUrl = process.env.CEMEVYF_HEALTH_ORDERS_API_URL || '';
+    this.apiUrl = process.env.CEMEVYF_HEALTH_ORDERS_API_URL || 'http://localhost:9900';
   }
 
 
   // Funcion para crear una nueva orden
   async createOrder(order: NewHealthOrder): Promise<HealthOrder | string> {
     try {
+      alert(`${this.apiUrl}/health-orders`);
       const raw = JSON.stringify(order);
       const response = await fetch(`${this.apiUrl}/health-orders`,
         {
